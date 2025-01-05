@@ -1,0 +1,9 @@
+[submodule "src/robot_msg"]
+	path = src/robot_msg
+	url = https://github.com/wudidadaqiuqiu/lp1-ros2-msg.git
+[submodule "src/control_evaluate"]
+	path = src/control_evaluate
+	url = https://github.com/wudidadaqiuqiu/lp1-ros2-contorl-eva.git
+[submodule "src/ros-connector"]
+	path = src/ros-connector
+	url = https://github.com/wudidadaqiuqiu/ros-connector.git
