@@ -7,3 +7,6 @@
 [submodule "src/ros-connector"]
 	path = src/ros-connector
 	url = https://github.com/wudidadaqiuqiu/ros-connector.git
+[submodule "src/rqt_signal_publisher"]
+	path = src/rqt_signal_publisher
+	url = https://github.com/wudidadaqiuqiu/rqt_signal_publisher.git
