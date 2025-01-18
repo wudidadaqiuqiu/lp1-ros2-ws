@@ -1,0 +1,61 @@
+---
+BasedOnStyle: Google
+
+# 空格和缩进
+IndentWidth:     4               # 每个缩进级别使用的空格数。
+UseTab:          Always            # 总是使用空格，而不是使用 Tab。
+TabWidth:        4                # Tab 键等价于多少个空格。
+
+
+# 别名定义行的最大列数。
+#ColumnLimit:     120
+
+# 是否允许将包括在同一行中。
+#AllowShortIfStatementsOnASingleLine: false
+
+# 是否允许在一行中放置短的 for 和 while 语句。
+#AllowShortLoopsOnASingleLine: false
+
+# 空格和缩进
+#IndentWidth:     4               # 每个缩进级别使用的空格数。
+#UseTab:          Never            # 总是使用空格，而不是使用 Tab。
+#TabWidth:        4                # Tab 键等价于多少个空格。
+
+# 控制函数声明的样式
+#AlwaysBreakAfterReturnType: None  # 控制返回类型是否总是在新的一行上。
+#AlwaysBreakBeforeMultilineStrings: false  # 不在多行字符串之前换行。
+
+# 控制大括号的放置风格
+#BraceWrapping:
+#  AfterClass:      true           # 类声明后是否换行放置大括号。
+#  AfterControlStatement: true     # 控制语句 (if/else/for/while/do) 后是否换行放置大括号。
+#  AfterEnum:       true           # 枚举声明后是否换行放置大括号。
+#  AfterFunction:   true           # 函数定义后是否换行放置大括号。
+#  AfterNamespace:  true           # 命名空间声明后是否换行放置大括号。
+#  BeforeElse:      true           # else 之前是否换行。
+#  IndentBraces:    false          # 大括号是否要缩进。
+
+# 函数参数列表的格式化
+#BinPackParameters: false  # 每个参数都独立一行。
+
+# 是否强制换行长的表达式。
+#BreakBeforeBinaryOperators: true  # 在二元运算符之前换行。
+#BreakBeforeBraces: Custom  # 控制大括号之前是否换行。
+#BreakBeforeTernaryOperators: true # 三元运算符之前换行。
+
+# 对齐风格
+#AlignConsecutiveAssignments: true # 对齐连续的赋值语句。
+#AlignOperands: false              # 不对齐多行表达式中的操作符。
+
+# 命名空间相关设置
+#NamespaceIndentation: All         # 在命名空间内始终进行缩进。
+
+# 换行设置
+#PenaltyBreakBeforeFirstCallParameter: 19 # 第一个函数调用参数前换行的惩罚。
+#PenaltyBreakString: 1000                # 字符串换行的惩罚。
+
+# 控制注释的格式化
+#ReflowComments:  true  # 自动格式化注释，使其符合 ColumnLimit。
+#CommentPragmas:  '^ IWYU pragma:'  # 正则匹配注释中不应该格式化的部分。
+
+...
