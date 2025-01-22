@@ -35,7 +35,7 @@ Diagnostics:
       # bugprone-easily-swappable-parameters,
       # modernize-macro-to-enum,
       # bugprone-narrowing-conversions,
-      # readability-identifier-length,
+      readability-identifier-length,
       # modernize-use-trailing-return-type,
     ]
     
