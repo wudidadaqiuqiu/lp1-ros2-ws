@@ -10,3 +10,6 @@
 [submodule "src/rqt_signal_publisher"]
 	path = src/rqt_signal_publisher
 	url = https://github.com/wudidadaqiuqiu/rqt_signal_publisher.git
+[submodule "src/rqt_reconfigure"]
+	path = src/rqt_reconfigure
+	url = https://github.com/gordon-n-stevenson/rqt_reconfigure.git
