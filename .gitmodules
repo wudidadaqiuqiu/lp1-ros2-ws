@@ -4,9 +4,6 @@
 [submodule "src/control_evaluate"]
 	path = src/control_evaluate
 	url = https://github.com/wudidadaqiuqiu/lp1-ros2-contorl-eva.git
-[submodule "src/ros-connector"]
-	path = src/ros-connector
-	url = https://github.com/wudidadaqiuqiu/ros-connector.git
 [submodule "src/rqt_signal_publisher"]
 	path = src/rqt_signal_publisher
 	url = https://github.com/wudidadaqiuqiu/rqt_signal_publisher.git
@@ -16,3 +13,9 @@
 [submodule "src/opt_control"]
 	path = src/opt_control
 	url = https://github.com/wudidadaqiuqiu/opt-control.git
+[submodule "src/ocn_lazer_gimbal"]
+	path = src/ocn_lazer_gimbal
+	url = https://github.com/wudidadaqiuqiu/ocn_lazer_gimbal.git
+[submodule "src/embedded_interface"]
+	path = src/embedded_interface
+	url = https://github.com/wudidadaqiuqiu/embedded_interface.git
